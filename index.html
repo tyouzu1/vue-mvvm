@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="./index.js"></script>
+</head>
+<body>
+  <div id="app">
+    <div>
+      Vue
+      <p class="add" @click="add" >点我点我number:{{number}}</p>
+      <a href="https://tyouzu1.github.io">{{message}}</a>
+      <!--这里是---注释 -->
+    </div>
+  </div>
+  <script>
+  var app = new Vue({
+    el: '#app',
+    data: {
+      number: 1,
+      message: "tyouzu1.github.io"
+    },
+    methods: {
+      add() {
+        this.number = this.number+1
+      }
+    }
+  })  
+  </script>
+</body>
+</html>
