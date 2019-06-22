@@ -1,5 +1,5 @@
 # 实现一个简单的Vue
-用于[博客](https://tyouzu1.github.io)
+用于[博客](https://tyouzu1.github.io/blog/2019/06/08/mvvm-vue-2/)
 ## 目标用例
 ```html
 <div id="app">
